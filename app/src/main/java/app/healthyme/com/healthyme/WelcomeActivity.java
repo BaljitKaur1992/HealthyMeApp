@@ -22,7 +22,7 @@ public class WelcomeActivity extends AppCompatActivity implements ViewPager.OnPa
         setContentView(R.layout.activity_welcome_intro);
 
         viewPager=(ViewPager)findViewById(R.id.myViewPager);
-        firstDotImageView=(ImageView)findViewById(R.id.thirdDotImageView);
+        firstDotImageView=(ImageView)findViewById(R.id.firstDotImageView);
         secondDotImageView=(ImageView)findViewById(R.id.secondDotImageView);
         thirdDotImageView=(ImageView)findViewById(R.id.thirdDotImageView);
         adapter= new MyPagerAdapter(getSupportFragmentManager());

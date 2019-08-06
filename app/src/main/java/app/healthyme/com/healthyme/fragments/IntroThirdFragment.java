@@ -19,10 +19,10 @@ public class IntroThirdFragment  extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view=inflater.inflate(R.layout.intro_first_fragment, container, false);
+        view=inflater.inflate(R.layout.intro_third_fragment, container, false);
 
-        textView1=(TextView)view.findViewById(R.id.notificationAlertsTextView);
-        textView2=(TextView)view.findViewById(R.id.notificationAlertsSubTitleTextView);
+     //   textView1=(TextView)view.findViewById(R.id.notificationAlertsTextView);
+      //  textView2=(TextView)view.findViewById(R.id.notificationAlertsSubTitleTextView);
 
 
 
